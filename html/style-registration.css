@@ -1,0 +1,190 @@
+@import url('https://fonts.google.com/specimen/Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/*CLASS*/
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.quebra-linha {
+    display: block;
+    padding: 38px 0px;
+}
+
+
+/*IDS*/
+
+#page {
+    margin: auto;
+    padding: 50px 0px 0px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-bottom: 2px solid #8A05BE;
+}
+
+#logo {
+    float: right;
+    margin-top: 10px;
+}
+
+#background {
+    margin-left: 57%;
+    position: relative;
+    bottom: 390px;
+}
+
+#bg {
+    z-index: -1;
+    position: relative;
+}
+
+
+/*TAGS*/
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to top right, #7e21a0, rgba(80, 59, 94, 0.247), rgba(255, 0, 0, 0));
+}
+
+img.nu {
+    width: 80px;
+    display: inline-block;
+}
+
+h2.tittle {
+    display: inline-block;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 25px;
+    color: #370749;
+}
+
+span {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: -3px;
+    color: #370749;
+    font-size: 50em;
+}
+
+input {
+    border: 2px solid #8A05BE;
+    border-radius: 3px;
+    background-color: #e6e6ff;
+    width: 255px;
+    height: 35px;
+    margin-right: 70px;
+    outline: none;
+    font-family: Lato;
+    position: relative;
+    z-index: 0;
+}
+
+input.button {
+    border: none;
+    border-radius: 2px;
+    background: #8A05BE;
+    width: 121px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 80px;
+    cursor: pointer;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #370749;
+    font-weight: 400;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+input[name="cel"] {
+    background-color: #ae84be;
+}
+
+input[name="nasc"] {
+    background-color: #ae84be;
+}
+
+input[name="cep"] {
+    background-color: #ae84be;
+}
+
+input[name="bairro"] {
+    background-color: #ae84be;
+}
+
+input[name="genero"] {
+    background-color: #ae84be;
+}
+
+input[name="endereco"] {
+    background-color: #ae84be;
+}
+
+input[name="estado"] {
+    background-color: #ae84be;
+}
+
+input[name="num"] {
+    background-color: #ae84be;
+}
+
+input[name="cidade"] {
+    background-color: #ae84be;
+}
+
+input[name="nome"] {
+    background-color: #bca4c5;
+}
+
+input[name="tel"] {
+    background-color: #bca4c5;
+}
+
+input[name="mae"] {
+    background-color: #bca4c5;
+}
+
+input[name="cpf"] {
+    background-color: #cdbfd4;
+}
+
+input[name="email"] {
+    background-color: #cdbfd4;
+}
+
+input[name="rg"] {
+    background-color: #d2cbd4;
+}

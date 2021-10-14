@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width-device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style-registration.css">
+</head>
+
+<body>
+    <div id="container">
+        <span name="face" class="material-icons">person</span>
+        <h2 class="tittle">Cadastro de Pessoa Física</h2>
+        <div id="logo">
+            <img class="nu" src="logo2.png">
+        </div>
+    </div>
+
+    <div id="page">
+        <div>
+            <input name="nome" type="text" placeholder="Nome Completo">
+            <input name="cpf" type="text" placeholder="CPF">
+            <input name="rg" type="text" placeholder="RG">
+        </div>
+        <div class="quebra-linha">
+            <input name="cel" type="tel" placeholder="Celular">
+            <input name="tel" type="tel" placeholder="Telefone">
+            <input name="email" type="email" placeholder="E-mail">
+        </div>
+        <div>
+            <input name="nasc" type="text" placeholder="Data de Nascimento" onfocus="(this.type='date')">
+            <input name="genero" list="genero" placeholder="Gênero">
+            <input name="mae" type="text" placeholder="Nome da Mãe">
+        </div>
+        <div class="quebra-linha">
+            <input name="cep" type="text" placeholder="CEP">
+            <input name="endereco" type="text" placeholder="Endereço">
+            <input name="num" type="text" placeholder="Número">
+        </div>
+        <div>
+            <input name="bairro" type="text" placeholder="Bairro">
+            <input name="estado" list="estado" placeholder="Estado">
+            <input name="cidade" list="cidade" placeholder="Cidade">
+
+        </div>
+    </div>
+
+    <div id="background">
+        <div id="bg"><img src="woman.png"></div>
+        <a href="success-page.html">
+            <input type="submit" value="CONCLUIR" class="button">
+        </a>
+        <a href="home-page.html">
+            <input type="submit" value="CANCELAR" class="button">
+        </a>
+    </div>
+
+    <!--Listas-->
+    <datalist id="genero">
+        <option value="Feminino">
+        <option value="Masculino">
+    </datalist>
+
+    <datalist id="estado">
+        <option value="Espírito Santo">
+        <option value="Minas Gerais">
+        <option value="Rio de Janeiro">
+        <option value="São Paulo">
+    </datalist>
+
+    <datalist id="cidade">
+        <option value="Belo Horizonte">
+        <option value="Rio de Janeiro">
+        <option value="São Paulo">
+        <option value="Vitória">
+    </datalist>
+</body>
+
+</html>
